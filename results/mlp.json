@@ -1,0 +1,22 @@
+{
+  "model": "mlp",
+  "dataset": "Fashion-MNIST",
+  "train_n": 50000,
+  "val_n": 10000,
+  "test_n": 10000,
+  "split_seeds": [
+    41
+  ],
+  "model_seed": 42,
+  "batch_seed": 44,
+  "epochs": 10,
+  "learning_rate": 0.003,
+  "batch_size": 256,
+  "selected_epoch": 9,
+  "parameter_count": 203530,
+  "test_cross_entropy": 0.3416122039794922,
+  "test_accuracy": 0.8811,
+  "majority_accuracy": 0.10000000149011612,
+  "torch_version": "2.14.1+cpu",
+  "python_version": "3.13.9"
+}
